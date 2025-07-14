@@ -1,3 +1,30 @@
+# Overview
+
+I’m on my journey to becoming a Data Analyst, and this portfolio shows the projects and exercises I’ve worked on to build my skills with Python and data.
+
+I took the course "Python for Data Analytics - Full Course for Beginners" because I wanted a strong, practical foundation in Python for data work. It helped me understand how to clean, analyze, and visualize real datasets — skills that are essential for any data analyst.
+
+
+# Tools used
+
+* Python: The main programming language I used throughout the projects for data manipulation and analysis.
+
+* Pandas: For cleaning, transforming, and exploring datasets — helping me handle data efficiently.
+
+* Matplotlib: To create clear and insightful visualizations that help tell the story behind the data.
+
+* Jupyter Notebooks: My interactive workspace to write code, document my process, and test ideas step-by-step.
+
+# The Questions
+
+Below are the question I wanted to answer for this project based on a DataBase with more than 500k roles around the world from year 2023
+
+1. What are the skills most in demand for the top 3 most popular data roles?
+
+2. How are in-demand skills trending for Data Analysts?
+
+3. How well do jobs and skills pay for Data Analysts?
+
 # The Analysis
 
 ## 1. What are The Most Top 3 skills on demand for The Top 3 Most popular jobs
@@ -186,3 +213,11 @@ fig.tight_layout()
 ## Results
 
 ![Top 10 Pay Skills](03_Project/Graphs/Top_10_pay_skills.png)
+
+
+
+# Conclusions
+
+The learning process has presented its challenges, including troubleshooting code errors and managing compatibility issues across Python versions. However, overcoming these obstacles has strengthened my problem-solving skills and deepened my understanding of data analysis.
+
+I am confident that the knowledge and experience gained through this course and projects will serve as a solid foundation as I continue my development as a Data Analyst.
