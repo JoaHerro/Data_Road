@@ -109,4 +109,29 @@ for i in range(5):
 
 ## Results
 
-![]
+![](03_Project/Graphs/Top_5_Skills_Trending_2023.png)
+
+
+# The Analysis
+
+## 3. How well do jobs and skills pay for Data Analyst based on 2023?
+
+### Salary Analysis
+
+``` python
+sns.boxplot(data= df_US_top6, x='salary_year_avg', y='job_title_short', order=job_ordered)
+sns.set_theme(style='ticks')
+
+plt.title('Salary Distribution in the United States')
+plt.xlabel('Yearly Salary in USD')
+plt.ylabel('')
+ax = plt.gca()
+ax.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, pos: f'${int (x/1000)}K'))
+plt.xlim(0,600_000)
+
+plt.show()
+
+```
+## Result
+
+
